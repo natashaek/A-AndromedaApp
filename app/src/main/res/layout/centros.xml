@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:barrierMargin="15dp">
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/andromeda1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nombre"
+            style="@style/Widget.AppCompat.TextView"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textAllCaps="true"
+            android:textColor="@color/burnt_sienna"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/botonC"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="274dp"
+            android:layout_height="wrap_content"
+            android:text="mas informacion"
+            android:textAlignment="center"
+            app:iconGravity="top|end" />
+    </LinearLayout>
+
+</LinearLayout>
